@@ -14,7 +14,7 @@ public class GoogleBillboard {
   else{
   start++;
   end++;
-  main();
+  setup();
   }
 	}
 	
