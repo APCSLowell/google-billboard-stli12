@@ -14,13 +14,13 @@ public class GoogleBillboard {
   else{
   start++;
   end++;
-  setup();
+  main();
   }
 	}
 	
 
 	//Finish this function
-	public boolean isPrime(double dNum){
+	public static boolean isPrime(double dNum){
 	double nlength = Math.sqrt(dNum);
     for(int i =2; i <= nlength; i++){
      if(dNum % i == 0)
